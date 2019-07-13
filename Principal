@@ -1,12 +1,10 @@
 #include <iostream>
-#include <conio.h>
-
-using namespace std;
 
 int main ()
 {
-	cout<<"Hola mundo con GitHub!";
+	std::cout << "Hola mundo con GitHub!" << std::endl;
 	
-	getch();
+	char c;
+        std::cin >> c;
 	return 0;
 }
